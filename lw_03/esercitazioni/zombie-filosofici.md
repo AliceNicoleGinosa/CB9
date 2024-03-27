@@ -13,14 +13,14 @@ chi prova dolore, inclusa l'espressione verbale del dolore. Alla stesso modo, un
 mondo zombie è un mondo possibile indistinguibile dal nostro mondo in cui tutti
 gli esseri mancano di coscienza.
 
-Gli argomenti filosofeggianti sugli zombi sono usati a sostegno del dualismo
+Gli argomenti filosofeggianti sugli zombie sono usati a sostegno del dualismo
 mente-corpo contro forme di fisicalismo (ad. es., materialismo, il
 comportamentismo e il funzionalismo) e mirano a confutare la possibilità di
 qualsiasi soluzione fisicalista a quello che Chalmers definisce "problema
-difficile della coscienza"[^2] over il problema di rendere conto dell'esperienza
+difficile della coscienza"[^2] ove il problema di rendere conto dell'esperienza
 soggettiva, intrinseca e in prima persona, del cosa-si-prova[^3], come definito
-da Thomas Nagel. I proponenti dell'argomento dello zombi filosofeggianti, tra i
-quali il filosofo David Chalmers, sostengono che poiché uno zombi filosofico è
+da Thomas Nagel. I proponenti dell'argomento dello zombie filosofeggianti, tra i
+quali il filosofo David Chalmers, sostengono che poiché uno zombie filosofico è
 per definizione fisicamente identico a una persona cosciente, la sola
 possibilità logica della sua esistenza è sufficiente a confutare il fisicalismo.
 In altre palore, se possiamo concepire un essere fisicamente identico a una
