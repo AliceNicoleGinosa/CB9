@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- inizio header -->
+        <header id="main-header">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home" title="vai alla home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#team" title="vai al team">Team</a>
+                    </li>
+                    <li>
+                        <a href="#servizi" title="vai ai servizi">Servizi</a>
+                    </li>
+                    <li>
+                        <a href="#contatti" title="vai ai contatti">Contatti</a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+    <!-- fine header -->
+    <main>
+        <!-- inizio sezione principale -->
+        <section class="homepage">
+            <!-- <picture> 
+                <source media="(min-width: 767px)" srcset="assets/images/homepage-img.webp">
+                <source media="(min-width:0px)" srcset="assets/images/homepage-img-mobile.webp">
+                <img src="assets/images/homepage-img.webp" alt="description">
+            -->
+            <h1 class="titolo-principale">Textile<span>Lovers</span></h1>
+            <h2><i>Abiti su misura</i></h2>
+        </section>
+        <section id="home">
+            <div class="corpo-storia">
+            <div class="corpo-testo">
+            <p><span>La nostra storia</span><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ratione ullam nemo aperiam, quisquam praesentium temporibus provident
+                    incidunt inventor quo dolore, eaque quae quia sapiente asperiores. 
+                    Nam quidem suscipit debitis tempora, minus fugit earum ipsam vero maiores corrupti
+                    dolores illo eos ab repellendus? Assumenda illum a voluptate laboriosam voluptas vel, pariatur nulla dicta est suscipit.<br><br><br><span>Il nostro design</span> <br>Mollitia, maxime. Aspernatur, repudiandae. Possimus, repellat voluptas eveniet odit voluptates ad veniam corrupti culpa facilis minima aspernatur, reprehenderit eligendi illum a mollitia ex eum? Sapiente, laborum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quisquam maxime aperiam nulla. Alias libero reiciendis veniam deleniti dignissimos reprehenderit tenetur in?</p>
+            </div>
+            <div class="corpo-img">
+                <img src="assets/images/homepage.webp" alt="disegno di un bozzetto" width="400" height="400"></div>
+        </section>
+        <!-- fine sezione principale -->
+
+    <!-- inizio blocco 1 -->
+
+        <section id="servizi"class="blocco-uno">
+            <div class="servizi-img">
+                <img src="assets/images/abiti.webp" alt="abito" width="400" height="400"></div>
+            <div class="servizi-testo">
+                    <h3>I nostri servizi</h3>
+                            <p>Lorem ipsum dolor,tur adipisicing elit. Adipisicing elit. 
+                                Fugiat facere nemo suscipit provident.<br>
+                                <br> Quia tempore sint nulla alias, deserunt, ipsa, maiores 
+                                consequatur blanditiis nostrum officiis qui aut 
+                                aperiam beatae totam.<br><br></p>
+                        <a class=button-servizi href="#" title="Vai ai servizi">Scoprili</a>
+            </div>
+        </section> 
+        <!-- fine blocco 1 -->
+
+        <!-- inizio blocco 2 -->
+
+        <section id="team" class="team">
+            <h2 class="team-title">Il nostro team</h2>
+    <section class="team-container">
+        <div class="card-people">
+                        <img src="assets/images/foto1.webp" alt="foto" width="200" heigth="200">
+                <h3>Alice Rossi</h3>
+                <h4>La sarta</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corporis?</p>
+        </div>
+        <div class="card-people"> <img src="assets/images/foto2.webp" alt="foto" width="200" heigth="200">
+                <h3>Silvia Verde</h3>
+                <h4>La fashion designer</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, reiciendis.</p></div>
+        <div class="card-people"> <img src="assets/images/foto3.webp" alt="foto" width="200" heigth="200">
+                    <h3>Delia Neri</h3>
+                    <h4>La stylist</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, reiciendis.</p>
+        </div>      
+    </section>
+        <!-- fine blocco 2 -->
+        <!-- sezione contatti inizio -->
+        <section id="contatti" class="footer">
+            <h3 class="footer-title">Contattaci</h3>
+        <section class="form-section">
+            <form class="form" action="new-contact" method="post">
+            <div class="input-container">
+            <div class="col-input">
+                <label class="label" for="name">Nome</label>
+                <input class="input" type="text" name="nome" placeholder="Scrivi il tuo nome" required>
+            </div>
+            <div class="col-input">
+                <label class="label" for="name">Cognome</label>
+                <input class="input" type="text" name="cognome" placeholder="Scrivi il tuo cognome" required>
+            </div>
+            <div class="col-input">
+                <label class="label" for="name">E-mail</label>
+                <input class="input" type="email" name="email" placeholder="Scrivi la tua mail" required>
+            </div>
+            <div class="col-input">
+                <label class="label" for="name">E-mail</label>
+                <input class="input" type="email" name="email" placeholder="Scrivi la tua mail" required>
+            </div>
+            <div class="col-input-message">
+                <label class="label" for="name">Il tuo messaggio</label>
+                <textarea class="input" rows="10" cols="30" placeholder="Il tuo testo"></textarea>
+            </div>
+            <div class="bottone">
+            <input class="button-servizi" type="submit" value="Invia messaggio"/>
+            </div>
+            </div>
+        </form>
+        </section>
+        </section>
+        <!-- sezione contatti fine -->
+
+    </main>
+    </body>
+</html>
