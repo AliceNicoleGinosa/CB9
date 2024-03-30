@@ -394,7 +394,6 @@ border:2px solid red;
 
 .input-container {
 
-    border:2px solid yellow;
     width:100%;
     padding:40px;
     text-align: center;
@@ -403,7 +402,7 @@ border:2px solid red;
 }
 .col-input {
     width: 100%;
-    border:2px solid sandybrown;
+    
 }
 
 .col-input input {
@@ -411,13 +410,13 @@ border:2px solid red;
     display: block;
     height: 50px;
     /*padding: 12px 20px;*/
-    border:2px solid brown;
+    
 }
 
 .col-input-message {
     display: block;
     width: 100%;
-    border:2px solid brown;
+    
 }
 
 textarea {
@@ -432,13 +431,13 @@ textarea {
         flex-wrap: wrap;
         justify-content: space-between;
         text-align: center;
-        border:2px solid yellow;
+        
         
     
     }
     .col-input {
         width:40%;
-        border: 3px solid rebeccapurple;
+        
     }
 
     textarea {
@@ -451,7 +450,7 @@ textarea {
 }
 
 .bottone {
-        border: 2px solid yellow;
+        
         display: inline-block;
         margin-top: 20px;
         margin: auto; /* Aggiungi un margine auto Puoi impostare margin: auto sul pulsante stesso per centrarlo all'interno del modulo. Questo funziona perché margin: auto distribuisce uniformemente lo spazio libero intorno all'elemento. */
