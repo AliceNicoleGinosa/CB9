@@ -1,0 +1,66 @@
+/* CSS ESERCIZIO 2*/
+
+#root{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    
+    height: 50vh;
+}
+
+.img-item{
+    border:2px solid black;
+    border-radius:10px;
+
+}
+
+/* CSS ESERCIZIO 3*/
+
+.main-title{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:grey;
+    background-color: pink;
+    text-align: center;
+    cursor:pointer;
+}
+
+/* CSS ESERCIZIO 4*/
+
+#root2{
+    background-color: whitesmoke;
+    display:flex;
+    flex-wrap: wrap;
+    gap:25px;
+}
+
+.card-item{
+    display:flex;
+    flex-direction: column;
+    border:2px solid purple;
+    background-color:rgb(237, 222, 224);
+    padding:10px;
+    width:300px;
+}
+
+
+.city-title{
+font-size: 25px;
+color: purple;
+text-align: center;
+}
+
+.temperature-p{
+font-size: 20px;
+color: blueviolet;
+font-weight: bold;
+text-align: center;
+}
+
+.img-weather{
+    text-align: center;
+    border-radius: 50%;
+    
+    
+
+}
