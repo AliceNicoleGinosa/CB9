@@ -1,0 +1,23 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: max-content;
+  border-radius: 4px;
+}
+
+.product-card-title,
+p {
+  margin: 0;
+}
+
+.product-card-image {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.product-card-title {
+  font-size: 1rem;
+  width: 150px;
+}
