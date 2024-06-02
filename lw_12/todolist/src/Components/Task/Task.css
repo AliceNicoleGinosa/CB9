@@ -1,0 +1,39 @@
+/* .task-container {
+  max-width: fit;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+} */
+
+.task {
+  color: #bd7cff;
+  border: 2px solid #bd7cff;
+  cursor: pointer;
+  width: 500px;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.task:hover {
+  background-color: #bd7cff;
+  color: #fff;
+  border: #bd7cff 2px solid;
+}
+.button-close {
+  margin-right: 30px;
+  color: #bd7cff;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  left: 0px;
+  bottom: -4px;
+  cursor: pointer;
+}
+
+.button-close:hover {
+  color: #e46e1f;
+  transform: scale(1.5);
+}

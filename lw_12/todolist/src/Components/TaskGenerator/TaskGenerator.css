@@ -1,0 +1,33 @@
+.generator-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.input-text {
+  margin-right: 20px;
+  /* border: 3px solid #bd7cff; */
+  color: #bd7cff;
+  width: 350px;
+  border: 2px solid #bd7cff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input-text::placeholder {
+  color: #bd7cff;
+}
+
+.input-button {
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #bd7cff;
+  color: #fff;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.input-button:hover {
+  background-color: #fff;
+  color: #bd7cff;
+  border: #bd7cff 2px solid;
+}

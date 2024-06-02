@@ -1,0 +1,27 @@
+.app-container {
+  width: 100%;
+}
+.main-title {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 60px;
+  color: #bd7cff;
+}
+
+.subtitle {
+  margin-top: -60px;
+  margin-bottom: 120px;
+  font-size: 30px;
+  color: #bd7cff;
+  font-style: oblique;
+}
+
+.list-todos {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center; /* Centra verticalmente il contenuto */
+  align-items: center;
+}
