@@ -1,0 +1,9 @@
+@use "./assets/variables";
+.titleCarouselSection {
+  color: variables.$buttons-color;
+  font-size: 30px;
+  padding-top: 30px;
+  text-shadow: 0 0 8px black;
+  margin-left: 20px;
+  margin-top: 20px;
+}

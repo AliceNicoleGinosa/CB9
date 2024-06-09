@@ -1,0 +1,35 @@
+@use "../../assets/mixins";
+@use "../../assets/variables";
+
+.generalContainer {
+  position: relative;
+  pointer-events: none;
+  margin-top: 80px;
+  .iconsSliderWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+    .icon {
+      font-size: 40px;
+      pointer-events: all;
+      cursor: pointer;
+      color: variables.$buttons-color;
+      text-shadow: 0 0 8px variables.$contrast-color;
+    }
+  }
+  .heroContainer {
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

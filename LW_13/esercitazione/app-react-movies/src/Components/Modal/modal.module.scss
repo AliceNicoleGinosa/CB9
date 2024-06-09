@@ -1,0 +1,67 @@
+@use "../../assets/variables";
+@use "../../assets/mixins";
+.modalBackground {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  background-color: variables.$contrast-color;
+  backdrop-filter: blur(4px);
+
+  .modalWindow {
+    border-radius: 5px;
+    border: 2px solid variables.$buttons-color;
+    @include mixins.modal-dimension();
+    background-color: variables.$contrast-color;
+
+    position: relative;
+
+    @include mixins.mobile() {
+      width: 100%;
+      height: 80%;
+    }
+
+    .modalImage {
+      width: 100%;
+      height: 50%;
+    }
+
+    .modalDescription {
+      margin-top: 15px;
+      padding: 30px;
+      font-size: 18px;
+      color: variables.$basic-text-color;
+    }
+    .modalTitle {
+      color: variables.$buttons-color;
+      margin-top: 25px;
+      font-size: 30px;
+      padding-left: 40px;
+    }
+  }
+  .closeButtonContainer {
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    position: absolute;
+    .btnModal {
+      color: variables.$buttons-color;
+      font-size: 35px;
+      text-shadow: 0px 0px 10px variables.$contrast-color;
+      &:hover {
+        color: variables.$basic-text-color;
+      }
+    }
+  }
+
+  .iconLoading {
+    height: 100px;
+    width: 100px;
+    color: variables.$buttons-color;
+  }
+}

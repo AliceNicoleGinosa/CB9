@@ -1,0 +1,38 @@
+@use "../../assets/mixins";
+@use "../../assets/variables";
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  height: 80px;
+  position: fixed;
+  background-color: variables.$contrast-color;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  .menuContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: max-content;
+    gap: 50px;
+    margin-right: 20px;
+    @include mixins.mobile() {
+      gap: 35px;
+    }
+  }
+
+  .menuItem {
+    list-style: none;
+    font-size: 20px;
+    color: variables.$basic-text-color;
+    transition: all 0.25s;
+    @include mixins.mobile() {
+      font-size: 15px;
+    }
+    &:hover {
+      color: variables.$buttons-color;
+      transform: scale(1.2);
+    }
+  }
+}

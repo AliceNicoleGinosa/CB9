@@ -1,0 +1,47 @@
+@use "../../assets/variables";
+.movieCard {
+  display: flex;
+  flex: 0 0 auto;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  position: relative;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 8px variables.$contrast-color;
+  border-radius: 4px;
+  transition: all 0.25s;
+  &:hover {
+    transform: scale(1.02);
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  img {
+    border-radius: 4px;
+    &:hover {
+      border: 2px solid variables.$buttons-color;
+    }
+  }
+
+  button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.484);
+    border: 1px solid variables.$buttons-color;
+    position: absolute;
+    color: variables.$buttons-color;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0 0 8px variables.$contrast-color;
+    scroll-snap-align: center;
+    &:hover {
+      color: variables.$basic-text-color;
+
+      background-color: variables.$buttons-color;
+    }
+  }
+}
