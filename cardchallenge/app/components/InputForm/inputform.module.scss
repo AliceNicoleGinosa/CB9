@@ -1,0 +1,77 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  width: 100vw;
+  height: 100vh;
+
+  .preform {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .formContainer {
+      width: 420px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .cardNameContainer {
+        margin-bottom: 10px;
+
+        display: flex;
+        flex-direction: column;
+      }
+      .label {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+      .input {
+        height: 40px;
+        border-radius: 3px;
+      }
+
+      .cardNumberContainer {
+        margin-bottom: 10px;
+
+        display: flex;
+        flex-direction: column;
+      }
+      .expDateCvc {
+        display: flex;
+        justify-content: space-between;
+
+        .inputYYMM {
+          width: 55px;
+          height: 40px;
+          border-radius: 3px;
+        }
+        .expirationContainer {
+          margin-bottom: 10px;
+
+          display: flex;
+          flex-direction: column;
+
+          .divide {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+          }
+        }
+        .cvcContainer {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+    .buttonConfirm {
+      width: 420px;
+      height: 40px;
+      background: linear-gradient(to right, #4a00e0, #8e2de2);
+      font-size: 14px;
+      color: #f7f7f7;
+    }
+  }
+}

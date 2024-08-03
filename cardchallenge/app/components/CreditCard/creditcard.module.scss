@@ -1,0 +1,94 @@
+.generalContainer {
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .containerCardFront {
+    position: relative;
+    width: 380px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    .logoIconFront {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+  }
+  .containerCardnumber {
+    margin-top: 120px;
+    padding: 5px;
+    color: #ffff;
+
+    .cardNumber {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ffff;
+      margin-left: 6px;
+    }
+  }
+
+  .containerHolderDate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    .containerHolder {
+      color: #ffff;
+      font-size: 14px;
+    }
+
+    .containerDate {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 10px;
+      color: #ffff;
+    }
+  }
+
+  .containerBack {
+    width: 380px;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    background-color: #f7f7f7;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+
+    .blackString {
+      width: 375px;
+      height: 40px;
+      border-radius: 5px;
+      margin-left: 2px;
+      margin-right: 2px;
+      background-color: #333333;
+      margin-top: 30px;
+    }
+
+    .iconBack {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .cvcInput {
+      text-align: right;
+      margin-top: 100px;
+      height: 40px;
+      border-radius: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      border: 2px solid #ffffff;
+      background-color: #ffffff;
+      padding-right: 8px;
+      padding-top: 8px;
+    }
+  }
+}
